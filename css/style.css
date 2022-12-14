@@ -842,7 +842,7 @@ img {
   }
 
   .header__logo {
-    margin: 0;
+    margin: 0 59px 0 0;
   }
 
   .header__item:not(:last-child) {
@@ -973,6 +973,10 @@ img {
     top: 0;
     height: 100px;
     z-index: 100;
+  }
+
+  .header__logo {
+    margin: 0;
   }
 
   .header__login {
