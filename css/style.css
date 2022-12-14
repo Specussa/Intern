@@ -842,7 +842,7 @@ img {
   }
 
   .header__logo {
-    margin: 0 59px 0 0;
+    margin: 0;
   }
 
   .header__item:not(:last-child) {
