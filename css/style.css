@@ -1125,6 +1125,12 @@ img {
     font-size: 12px;
   }
 
+  .header__burger {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
   .hero__link:not(:last-child) {
     margin: 0 0 10px 0;
   }
