@@ -992,24 +992,33 @@ img {
     margin: 0 auto;
     padding: 10px 20px 20px;
     position: absolute;
-    top: -200%;
+    top: 100px;
     left: 0;
     right: 0;
     background: #FFF;
     max-width: 700px;
     z-index: 99;
-    -webkit-transition: top 0.5s;
-    -moz-transition: top 0.5s;
-    -ms-transition: top 0.5s;
-    -o-transition: top 0.5s;
-    transition: top 0.5s;
-    -moz-box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.15);
-    box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.15);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
   }
 
   .header__open {
-    top: 100px;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+    -moz-box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 33px rgba(0, 0, 0, 0.15);
   }
 
   .header__link {
@@ -1140,7 +1149,7 @@ img {
     height: 80px;
   }
 
-  .header__open {
+  .header__nav {
     top: 80px;
   }
 
